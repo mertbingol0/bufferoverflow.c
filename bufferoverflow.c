@@ -3,7 +3,7 @@
 #include <string.h>
  
 void vulnerableFunc(char* input) {
-    char buffer[80];
+    char buffer[60];
     strcpy(buffer, input);
 }
  
@@ -15,6 +15,6 @@ int main(int argc, char** argv) {
  
     vulnerableFunc(argv[1]);
  
-    printf("Exiting...\n");
+    printf("Ağla...\n");
     exit(0);
 }
